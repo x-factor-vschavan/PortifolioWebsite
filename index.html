@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persnal portfolio website</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/9db17e568a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/download.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Service</a></li>
+                    <li><a href="#portfolio"><Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <p>Full Stack developer</p>
+            <h1> Hi, I'm <span>Vishal</span>  <br> chavan from Gulbarga</h1>
+        </div>
+        </div>
+    </div>
+<!-- ====================================about==================================================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/1643004770314.JPG" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste autem eum corrupti ipsum vitae beatae maxime rem nesciunt nisi dolorem 
+                        consectetur atque tempore delectus, placeat architecto!
+                         Fuga exercitationem ipsam perspiciatis.</p>
+                         <div class="tab-title">
+                            <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('Experince')">Experince</p>
+                            <p class="tab-link" onclick="opentab('Education')">Education</p>
+                         </div>
+                         
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span> Web Developer</span><br>Design and Develop the website interface</li>
+                                <li><span> Back-end Developer</span><br>Design and Develop in the Back-end</li>
+                                <li><span> Full-stack Developer</span><br>Design web and application the Software Appliction</li>
+                                <li><span> Mechaniacal Engineering</span><br>Hands on Experince in , Manufactuing, design, Automobile,Stimulation</li>
+
+                            </ul>
+                         </div>
+                        
+                         <div class="tab-contents" id="Experince">
+                            <ul>
+                                <li><span> 2022-Currently</span><br>web developer , Java ,J2EE, SQl DataBase Traning at the J-Spider Traning Institude</li>
+                                <li><span> 2019-2022 </span><br>Mechaniacal Engineering from PES UNIVERSITY</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span> 2022-Currently</span><br>Full-stack Developer</li>
+                                <li><span> 2019-2022 </span><br>Mechaniacal Engineering from PES UNIVERSITY</li>
+                                <li><span> 2016-2019 </span><br>Mechaniacal Engineering from Govt. Polytechnic Kalaburgai</li>
+                                <li><span> 2016-2019 </span><br>SSLC-Mahatma Gandhi   English Medium School</li>
+
+
+                            </ul>
+                         </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- =====================================service============================================== -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, pariatur illo sint rerum et, 
+                        earum id culpa iusto minus animi quaerat tempore quas explicabo!
+                         Optio in possimus molestias repellat labore?</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Engineer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, pariatur illo sint rerum et, 
+                        earum id culpa iusto minus animi quaerat tempore quas explicabo!
+                         Optio in possimus molestias repellat labore?</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, pariatur illo sint rerum et, 
+                        earum id culpa iusto minus animi quaerat tempore quas explicabo!
+                         Optio in possimus molestias repellat labore?</p>
+                         <a href="#">Learn more</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- ==============================Portfoio=============================================> -->
+
+    <div id="portfolio">
+        <div id="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>HTML & CSS</h3>
+                        <p>Use to develop & design the  website for the business </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media app</h3>
+                        <p>The app connect you to the talented people around the world</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify</h3>
+                        <p>You can listen the free music</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+<!-- =======================================contacr================> -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>vschavan369@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i>9739192427</p>
+            <br>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="./images/CV.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+            <div class="contact-right">
+                 <form  name="submit-to-google-sheet" >
+                         <input type="text" name="name" placeholder="Your Name" required>
+                         <input type="email" name="email" placeholder="Your email" required>
+                         <textarea name="Message"  rows="10" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg">Submitted sucess</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright (c) <i class="fa-solid fa-heart"></i>  vschavan </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==============js===================== -->
+    <script>
+
+        var tablinks =  document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+
+    </script>
+
+
+    <script>
+
+         var sidemeu = document.getElementById("sidemenu")
+
+         function openmenu(){
+            sidemeu.style.right="0"
+         }
+         function closemenu(){
+            sidemeu.style.right="-200px"
+         }
+
+    </script>
+
+    
+<!-- <form name="submit-to-google-sheet">
+    <input name="email" type="email" placeholder="Email" required>
+    <button type="submit">Send</button>
+  </form> -->
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwKFKh5IlDnvlO9_o3DcPwPcOBe4JaMhes8IHAKkOHpLb9HlD75IMW6F_QrgyKYRr5M/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
